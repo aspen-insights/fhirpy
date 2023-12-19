@@ -12,17 +12,17 @@ jwcrypto = "^1.5.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.9.1"
-flake8 = "^6.1.0"
 isort = "^5.12.0"
 mypy = "^1.5.1"
 pre-commit = "^3.4.0"
-flake8-black = "^0.3.6"
 types-requests = "^2.31.0.3"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^7.4.2"
 pytest-mock = "*"
 requests-mock = "^1.11.0"
+flake8 = "^6.1.0"
+flake8-black = "^0.3.6"
 
 
 [tool.poetry.group.datascience.dependencies]

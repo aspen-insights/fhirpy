@@ -1,0 +1,34 @@
+{
+    "authorization_endpoint": "https://fhir.epic.com/interconnect-fhir-oauth/oauth2/authorize",
+    "token_endpoint": "https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token",
+    "token_endpoint_auth_methods_supported": [
+      "client_secret_post",
+      "client_secret_basic",
+      "private_key_jwt"
+    ],
+    "scopes_supported": [
+      "epic.scanning.dmsusername",
+      "fhirUser",
+      "launch",
+      "openid",
+      "profile"
+    ],
+    "response_types_supported": [
+      "code"
+    ],
+    "capabilities": [
+      "launch-ehr",
+      "launch-standalone",
+      "client-public",
+      "client-confidential-symmetric",
+      "context-banner",
+      "context-style",
+      "context-ehr-patient",
+      "context-ehr-encounter",
+      "context-standalone-patient",
+      "permission-offline",
+      "permission-patient",
+      "permission-user",
+      "sso-openid-connect"
+    ]
+  }

@@ -1,0 +1,10 @@
+.cache
+.pytest_cache
+.hypothesis
+__pycache__
+jwks_private.json
+jwks.json
+key.jwk
+.env
+data/
+.mypy_cache/

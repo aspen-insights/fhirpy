@@ -1,0 +1,296 @@
+{
+    "transactionTime": "2023-09-20T13:27:58.372-04:00",
+    "request": "http://fhir.test.com/fhir/r4/test/Group/test-group/$export",
+    "requiresAccessToken": true,
+    "output": [
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Goal",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.Goal.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Practitioner",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.Practitioner.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=2.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Condition",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.Condition.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Condition",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=2.Condition.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=3.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=4.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Condition",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=3.Condition.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Condition",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=4.Condition.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=5.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Device",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.Device.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "CarePlan",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.CarePlan.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=6.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "CareTeam",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.CareTeam.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Immunization",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.Immunization.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=7.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Immunization",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=2.Immunization.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "MedicationRequest",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.MedicationRequest.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Medication",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.Medication.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=8.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "MedicationRequest",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=2.MedicationRequest.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Medication",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=2.Medication.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=9.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Location",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.Location.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Procedure",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.Procedure.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "DiagnosticReport",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.DiagnosticReport.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=10.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "DiagnosticReport",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=2.DiagnosticReport.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=11.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "AllergyIntolerance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.AllergyIntolerance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=12.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "AllergyIntolerance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=2.AllergyIntolerance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "PractitionerRole",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.PractitionerRole.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Patient",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.Patient.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=13.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Organization",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.Organization.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Binary",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.Binary.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "DocumentReference",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.DocumentReference.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "DocumentReference",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=2.DocumentReference.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=14.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=15.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "DocumentReference",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=3.DocumentReference.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=16.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=17.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=18.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Observation",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.Observation.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Observation",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=2.Observation.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Observation",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=3.Observation.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Observation",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=4.Observation.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=19.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=20.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=21.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=22.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Observation",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=5.Observation.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Observation",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=6.Observation.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Observation",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=7.Observation.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=23.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=24.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=25.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Observation",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=8.Observation.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Observation",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=9.Observation.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Observation",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=10.Observation.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=26.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=27.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=28.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Observation",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=11.Observation.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Observation",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=12.Observation.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Observation",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=13.Observation.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Observation",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=14.Observation.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Encounter",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=1.Encounter.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        },
+        {
+            "type": "Provenance",
+            "url": "https://fhir.test.com/fhir/bulkdata/download?job_id=a9985569-6a7b-4985-9e04-ef5f3a0889d1&file_name=29.Provenance.a9985569-6a7b-4985-9e04-ef5f3a0889d1.ndjson"
+        }
+    ],
+    "error": []
+}

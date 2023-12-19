@@ -7,7 +7,7 @@
   - Use https://www.conventionalcommits.org/en/v1.0.0/ for tagging commits and pull requests to the best of your ability.
 
 ## Linux
-- Install python 3.10 from here [here](https://www.python.org/downloads/).
+- Install python 3.10 from [here](https://www.python.org/downloads/).
 - `python3.10 -m venv ~/.venvs/poetry`
 - `source ~/.venv/poetry/bin/activate`
 - `python -m pip install poetry`

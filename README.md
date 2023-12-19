@@ -1,7 +1,7 @@
 # Contribute
 
 ## Linux
-- Install python 3.10
+- Install python 3.10 from here [here](https://www.python.org/downloads/).
 - `python3.10 -m venv ~/.venvs/poetry`
 - `source ~/.venv/poetry/bin/activate`
 - `python -m pip install poetry`
@@ -33,14 +33,14 @@
 
 ## Token endpoints
 
+### Sandbox
+
+BASE FHIR URL: `https://staging-fhir.ecwcloud.com/fhir/r4/<practice>`
+
+FHIR Capabilities URL: `https://staging-fhir.ecwcloud.com/fhir/r4/<practice>/metadata?_format=json`
+
 ### Production
 
 `https://oauthserver.eclinicalworks.com/oauth/oauth2/authorize`
 
 `https://oauthserver.eclinicalworks.com/oauth/oauth2/token`
-
-### Sandbox
-
-BASE FHIR URL: `https://staging-fhir.ecwcloud.com/fhir/r4/FFBJCD`
-
-FHIR Capabilities URL: `https://staging-fhir.ecwcloud.com/fhir/r4/FFBJCD/metadata?_format=json`

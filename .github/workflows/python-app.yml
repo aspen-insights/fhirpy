@@ -31,7 +31,7 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  test_and_lint:
     strategy:
       fail-fast: false
       matrix:
@@ -45,11 +45,12 @@ jobs:
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v4
         with:
-          python-version: ${{ matrix.python-version }} 
+          python-version: ${{ matrix.python-version }}
+          architecture: 'x64' 
       - name: Install poetry
         uses: abatilo/actions-poetry@v2
         with:
-          poetry-version: ${{ matrix.poetry-version }}        
+          poetry-version: ${{ matrix.poetry-version }}      
       - name: Setup a local virtual environment (if no poetry.toml file)
         run: |
           poetry config virtualenvs.create true --local
@@ -60,7 +61,7 @@ jobs:
           path: ./.venv
           key: venv-${{ hashFiles('poetry.lock') }}
       - name: Install the project dependencies
-        run: poetry install --with test
+        run: poetry install 
       - name: Lint with flake8
         run: |
           # stop the build if there are Python syntax errors or undefined names

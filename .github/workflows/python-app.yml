@@ -5,7 +5,6 @@ name: Python Package Test and Lint
 
 on:
   push:
-    branches: ["main"]
     paths:
       - "src/**"
       - ".isort.cfg"
@@ -14,8 +13,8 @@ on:
       - "mypy.ini"
       - "tests/**"
       - "pyproject.toml"
+      - ".github/workflows/python-app.yml"
   pull_request:
-    branches: ["main"]
     paths:
       - "src/**"
       - ".isort.cfg"
@@ -24,20 +23,31 @@ on:
       - "mypy.ini"
       - "tests/**"
       - "pyproject.toml"
+      - ".github/workflows/python-app.yml"
 
 permissions:
   contents: read
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  test_and_lint:
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11"]
+        poetry-version: ["1.8.3"]
+        os: [ubuntu-22.04, windows-latest]
+    runs-on: ${{ matrix.os }}
 
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Python 3.10
+      - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }} 
       - name: Install poetry
         uses: abatilo/actions-poetry@v2
+        with:
+          poetry-version: ${{ matrix.poetry-version }}      
       - name: Setup a local virtual environment (if no poetry.toml file)
         run: |
           poetry config virtualenvs.create true --local
@@ -48,13 +58,13 @@ jobs:
           path: ./.venv
           key: venv-${{ hashFiles('poetry.lock') }}
       - name: Install the project dependencies
-        run: poetry install
+        run: poetry install 
       - name: Lint with flake8
         run: |
           # stop the build if there are Python syntax errors or undefined names
-          poetry run flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+          poetry run flake8 src/ --count --select=E9,F63,F7,F82 --show-source --statistics
           # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-          poetry run flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+          poetry run flake8 src/ --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Test with pytest
         run: |
           poetry run pytest -m fhirapi

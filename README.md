@@ -37,6 +37,10 @@
 
 # ECW
 
+## Documentation
+
+`https://fhir.eclinicalworks.com/`
+
 ## Token endpoints
 
 ### Sandbox

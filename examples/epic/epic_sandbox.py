@@ -48,9 +48,7 @@ patient_files = [
 for mainfest_type in manifest_types:
     print(mainfest_type)
     resrouce_files = [
-            fhir_file
-            for fhir_file in mainfest.output
-            if fhir_file["type"] == mainfest_type
+        fhir_file for fhir_file in mainfest.output if fhir_file["type"] == mainfest_type
     ]
     fhir_data = []
     for fhir_file in resrouce_files:
@@ -59,7 +57,7 @@ for mainfest_type in manifest_types:
     with open("data/epic_sandbox_{}.ndjson".format(mainfest_type), "w") as f:
         for data in fhir_data:
             for line in data.content:
-                f.write(json.dumps(line)+"\n")
+                f.write(json.dumps(line) + "\n")
 
 
 # %%

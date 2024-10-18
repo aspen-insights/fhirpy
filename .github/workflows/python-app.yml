@@ -14,6 +14,7 @@ on:
       - "mypy.ini"
       - "tests/**"
       - "pyproject.toml"
+      - ".github/workflows/python-app.yml"
   pull_request:
     branches: ["main"]
     paths:
@@ -24,6 +25,7 @@ on:
       - "mypy.ini"
       - "tests/**"
       - "pyproject.toml"
+      - ".github/workflows/python-app.yml"
 
 permissions:
   contents: read

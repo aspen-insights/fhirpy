@@ -17,17 +17,17 @@ def base_url():
 @pytest.fixture
 @pytest.mark.ecw
 def client_id():
-    return os.getenv("ECW_CLIENT_ID")
+    return os.getenv("ECW_CLIENT_ID"), os.getenv("JKU"), os.getenv("JKU_KEY")
 
 
 @pytest.mark.ecw
 def test_smart_configuration(base_url, client_id):
-    jwks = JWKS(client_id=client_id)
+    jwks = JWKS(client_id=client_id, jku="your_json_key", json_key="your_json_key")
     scopes = emr_smart_scopes.ECW()
     fhir_api = FHIRAPI(base_url=base_url, jwks=jwks, scopes=scopes)
     smart_config = fhir_api.smart_configuration()
 
-    with open("tests/fhir_api/smart-configuration.json") as f:
+    with open("tests/ecw/smart-configuration.json") as f:
         expected_mart_config_json = json.load(f)
 
     assert expected_mart_config_json == smart_config

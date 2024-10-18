@@ -5,7 +5,7 @@ name: Python Package Test and Lint
 
 on:
   push:
-    branches: ["main"]
+    branches: ["*"]
     paths:
       - "src/**"
       - ".isort.cfg"

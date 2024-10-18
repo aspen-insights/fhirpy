@@ -1,3 +1,5 @@
+[![Python Package Test and Lint](https://github.com/washcycle/fhirpy/actions/workflows/python-app.yml/badge.svg)](https://github.com/washcycle/fhirpy/actions/workflows/python-app.yml)
+
 # Contribute
 
 - Pull requests welcome
